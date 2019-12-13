@@ -2,11 +2,35 @@ body {
   background-color: black;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  color: white;
+main {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.social-links-list {
+  display: flex;
+  align-items: center;
+}
+
+.social-links-list li {
+  width: 30px;
+  padding: 10px 10px 0 0;
+}
+
+.social-links-list path {
+  fill: white;
 }
