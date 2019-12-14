@@ -31,6 +31,17 @@ ul {
   padding: 10px 10px 0 0;
 }
 
+.social-link {
+  display: block;
+  transition: transform .2s;
+}
+
+a.social-link:hover,
+a.social-link:focus {
+  transform: translateY(-2px);
+  outline: 0px;
+}
+
 .social-links-list path {
   fill: white;
 }
