@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #0f0e17;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -11,12 +11,12 @@ main {
 }
 
 h1 {
-  color: white;
+  color: #fffffe;
   margin: 0;
 }
 
 h2 {
-  color: #6d6d6d;
+  color: #a7a9be;
   margin: 0;
   font-size: 1em;
 }
@@ -50,6 +50,10 @@ a.social-link:focus {
   outline: 0px;
 }
 
+a.social-link:hover path {
+  fill: #ff8906;
+}
+
 .social-links-list path {
-  fill: white;
+  fill: #fffffe;
 }
